@@ -1,0 +1,62 @@
+video {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+    margin-top: 1rem;
+    border-radius: 0.5rem;  
+}
+
+canvas {
+    width: 640px;
+    height: 480px;
+    /* display: none; */
+}
+
+#gallery {
+    display: none;
+}
+
+body{
+    background-color: rgb(57, 54, 54);
+}
+
+#onclickdiv{
+    height: 1000px;
+    width: 100%;
+    cursor: pointer;
+    }
+
+.weddingPoster{
+    left:50px;
+    font-size:7vw;
+    font-family: noto-sans-cjk;
+    color: white;
+    font-weight: 5; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+#camera-image{
+
+    border-radius: 2rem;
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.4);
+    max-width: 50%;
+    max-height: 50%;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.4);
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+}

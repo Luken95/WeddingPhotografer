@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(57, 54, 54);
+}
+
+video{
+    height: 350px;
+    width: 450px; 
+    border-radius: 0.5rem;
+}
+
+/* @media (max-width: 640px) {
+    video {
+      width: 90vw;
+      height: auto;
+    }
+  } */
+
+ #videoDiv {
+    margin-left: 1.6rem;
+    margin-top: 10rem;
+    border-radius: 0.5rem;
+    height: 350px;
+    width: 450px; 
+}
+
+canvas {
+    margin-left: 1.6rem;
+    margin-top: 10rem;
+    border-radius: 0.5rem;
+    height: 350px;
+    width: 450px; 
+}  
+
+#gallery-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.4);
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+}
+
+#takePicture, #newPicture{
+    position: absolute;
+    right: 14px;
+    top: 41rem;
+    width: 470px;
+    height: 80px;
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: rgb(57, 54, 54);
+} 
+
+#iphonesize{
+    position: relative;
+    display: flex;
+    margin: auto;
+    margin-top: 8px;
+    width: 500px;
+    height: 800px;
+}
+

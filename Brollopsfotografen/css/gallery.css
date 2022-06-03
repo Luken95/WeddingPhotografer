@@ -1,0 +1,80 @@
+body{
+  background-color: rgb(57, 54, 54);
+}
+
+ #iphonesize{
+  position: relative;
+  display: flex;
+  margin: auto;
+ max-width: 1650px;
+ min-width: none;
+  height: 1000px;
+  margin-top: 8px;
+  overflow: scroll;
+} 
+
+img{
+  margin-top: 100px;
+  width: 230px;
+  height: 180px;
+  border: 2px solid grey;
+}
+
+#camera-image{
+  position: absolute;
+  top: -1px;
+  right: 0;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.4);
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+  border: 3px white;
+}
+
+.deleteButton{
+  position: absolute;
+  top: 95px;
+  right: -5px;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.4);
+  height: 30px;
+  width: 30px;
+  font-size: 20px;
+  background-color: rgb(57, 54, 54); 
+  color: white;
+  cursor: pointer;
+  border:rgb(57, 54, 54);
+} 
+
+div{
+  position: relative;
+}
+
+#gallerySection{
+position: relative;
+}
+
+#gallery{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: center;
+padding: 10px;
+gap: 2em; 
+}
+
+#start-camera {
+  display: none;
+}
+#take-picture{
+  display: none;
+}
+#camera{
+  display: none;
+}
+#picture{
+  display: none;
+}
